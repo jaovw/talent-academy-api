@@ -1,0 +1,12 @@
+{
+  "name": "talent-academy-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jaovw/talent-academy-api.git",
+  "author": "jaovw <joojvw@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
