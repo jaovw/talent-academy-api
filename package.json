@@ -7,6 +7,14 @@
   "license": "MIT",
   "type": "module",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "pino": "^8.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "pino-pretty": "^9.1.1"
+  },
+  "scripts": {
+    "dev": "nodemon index.js | pino-pretty"
   }
 }
