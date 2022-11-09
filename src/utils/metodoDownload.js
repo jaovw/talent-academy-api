@@ -4,7 +4,7 @@ import path from "path"
 import { logger } from "./logger.js"
 
 // METODO PARA REAALIZAR O DOWNLOAD DOS ARQUIVOS NO ENDPOINT
-async function downloadFile(url) {
+async function downloadArquivos(url) {
 
     const filename = path.basename(url)
 
@@ -21,4 +21,4 @@ async function downloadFile(url) {
     return req
 }
 
-export { downloadFile }
+export { downloadArquivos }
