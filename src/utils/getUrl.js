@@ -13,7 +13,6 @@ async function getUrl() {
                 }
             }
         )
-        logger.info(data)
 
         return data
 
