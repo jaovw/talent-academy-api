@@ -15,6 +15,8 @@ async function downloadDados() {
 
         }
 
+        return true
+
     } catch (e) {
         logger.error(e)
     }
