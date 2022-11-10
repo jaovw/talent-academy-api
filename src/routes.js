@@ -1,13 +1,20 @@
 import { Router } from "express"
-import { dbConnect } from "./db/connection.js"
-import { insertDb } from "./db/insert.js"
+import { getArquivos } from "./controllers/getArquivos.js"
+import { downloadDados } from "./controllers/downloadDados.js"
+import { transformaDados } from "./controllers/tranformaDados.js"
 
 const router = Router()
 
-router.get('/', async (req, res) => {
+// router.get('/', async (req, res) => {
+   
+//     const nomeArquivos = await getArquivos()
+//     await downloadDados()
+//     await transformaDados()
+//     res.send({resposta: nomeArquivos})
+// })
 
-    await insertDb()
-    res.send('Hello World')
+router.get('/', () => {
+    resizeBy.send('Hello World')
 })
 
 export default router
