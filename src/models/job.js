@@ -11,7 +11,7 @@ const jobSchema = new Schema({
         required: true,
     },
     run_t: {
-        type: Date,
+        type: Number,
         required: true
     }
 })
