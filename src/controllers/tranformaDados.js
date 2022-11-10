@@ -14,6 +14,8 @@ async function transformaDados() {
 
         }
 
+        return true
+
     } catch (e) {
         logger.error(e)
     }
