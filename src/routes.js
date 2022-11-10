@@ -2,6 +2,7 @@ import { Router } from "express"
 import { getArquivos } from "./controllers/getArquivos.js"
 import { downloadDados } from "./controllers/downloadDados.js"
 import { transformaDados } from "./controllers/tranformaDados.js"
+import { status } from "./controllers/statusController.js"
 
 const router = Router()
 
@@ -13,8 +14,6 @@ const router = Router()
 //     res.send({resposta: nomeArquivos})
 // })
 
-router.get('/', () => {
-    resizeBy.send('Hello World')
-})
+router.get('/', status)
 
 export default router
