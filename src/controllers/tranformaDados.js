@@ -1,0 +1,22 @@
+import { unzipArquivos } from "../utils/metodoUnzip.js"
+import { getArquivos } from "./getArquivos.js"
+
+// CONTROLEER PARA REALIZAR O UNZIP DAS FILES BAIXADAS
+async function transformaDados() {
+
+    const nomeArquivos = await getArquivos()
+
+    try {
+        for (let i = 0; i < nomeArquivos.length; i++) {
+
+            const nome = nomeArquivos[i]
+            await unzipArquivos(nome)
+
+        }
+
+    } catch (e) {
+        logger.error(e)
+    }
+}
+
+export { transformaDados }
