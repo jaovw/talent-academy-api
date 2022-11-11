@@ -11,8 +11,6 @@ async function dbConnect() {
             `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@talentacademyapi.9wp5ynr.mongodb.net/?retryWrites=true&w=majority`
         )
 
-        logger.info('Conexao bem sucedida!')
-
         return 'Conexao com a base de dados bem sucedida!'
         
     } catch (e) {
