@@ -12,7 +12,12 @@ app.use(express.json())
 app.use(router)
 
 const server = app.listen(port, async () => {
-    logger.info(`API rodando na porta ${port}.`)
+    logger.info(
+    `
+
+        API rodando na porta ${port}.
+        Caso queira acessar o ambiente local ou Docker >> http://localhost:3000/
+    `)
 
     // CRON
     await jobDownload()
