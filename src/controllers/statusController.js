@@ -11,14 +11,14 @@ async function status(req, res) {
         return res.status(200).json({
 
             message: 'Aplicacao online ...',
-            info: conexao,
+            dataBase: conexao,
             memory: {
                 total: process.memoryUsage().heapTotal,
-                usada: process.memoryUsage().heapUsed
+                used: process.memoryUsage().heapUsed
             },
             cron: {
-                nome: item.job_name,
-                horario: horario
+                name: item.job_name,
+                time: horario
             }
 
         })
