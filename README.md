@@ -7,7 +7,7 @@ Proposta de solução para um desafio, do qual é a criação de uma API do tipo
 Com tarefas agendadas para a busca de dados em um endpoint e insersão dos mesmos para controle a partir de uma base de dados utilizando NoSQL - MongoDB.
 
 ### Referência 
-<a href="https://www.google.com/" target="_blank">Coodesh</a>
+<a href="https://github.com/jaovw/talent-academy-api/tree/main/src/docs/" target="_blank">Coodesh</a>
 
 ## __DOCUMENTAÇÃO__
 
