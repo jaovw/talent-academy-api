@@ -1,7 +1,15 @@
-# talent-academy-api
-Tech Challenge - Coodesh
+# talent-academy-api🧩
+## SOBRE 📎
+#### Tech Challenge - Coodesh
 
+Proposta de solução para um desafio, do qual é a criação de uma API do tipo REST.
 
+Com tarefas agendadas para a busca de dados em um endpoint e insersão dos mesmos para controle a partir de uma base de dados utilizando NoSQL - MongoDB.
+
+### Referência 
+<a href="https://www.google.com/" target="_blank">Coodesh</a>
+
+## __DOCUMENTAÇÃO__
 
 ## __DOCKER__ :whale2:
  Para a facilitação do deploy da equipe de DevOps. Utilizando o Docker Compose.
