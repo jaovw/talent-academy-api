@@ -6,10 +6,10 @@ Proposta de solução para um desafio, do qual é a criação de uma API do tipo
 
 Com tarefas agendadas para a busca de dados em um endpoint e insersão dos mesmos para controle a partir de uma base de dados utilizando NoSQL - MongoDB.
 
-### Referência 
-<a href="https://github.com/jaovw/talent-academy-api/tree/main/src/docs/" target="_blank">Coodesh</a>
+Havendo as rotas todas documentadas utilizando Open API.
 
-## __DOCUMENTAÇÃO__
+### Referência :triangular_flag_on_post:
+:point_right: <a href="https://github.com/jaovw/talent-academy-api/tree/main/src/docs/" target="_blank">Coodesh</a>
 
 ## __DOCKER__ :whale2:
  Para a facilitação do deploy da equipe de DevOps. Utilizando o Docker Compose.
@@ -30,3 +30,9 @@ Com tarefas agendadas para a busca de dados em um endpoint e insersão dos mesmo
   ```
    yarn dev
   ```
+  ## __DOCUMENTAÇÃO__ :open_book:
+
+Acessando o swagger disponibilizado para consultas e validações, juntamente com as propriedades e campos necessários para request.
+
+:point_right: <a href="http://localhost:3000/api-docs/" target="_blank">Doc</a>
+
