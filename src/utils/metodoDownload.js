@@ -9,7 +9,7 @@ async function downloadArquivos(url) {
     const filename = path.basename(url)
 
     const req = https.get(url, (res) => {
-        const fileStream = fs.createWriteStream(`./src/files/zip/${filename}`)
+        const fileStream = fs.createWriteStream(`./src/files/${filename}`)
         res.pipe(fileStream)
 
         fileStream.on('finish', () => {
