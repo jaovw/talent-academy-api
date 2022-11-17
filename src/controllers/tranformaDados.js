@@ -1,5 +1,6 @@
 import { unzipArquivos } from "../utils/metodoUnzip.js"
 import { getArquivos } from "./getArquivos.js"
+import { logger } from "../utils/logger.js"
 
 // CONTROLEER PARA REALIZAR O UNZIP DAS FILES BAIXADAS
 async function transformaDados() {
